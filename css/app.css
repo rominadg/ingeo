@@ -1,11 +1,28 @@
-﻿.imghome {
+﻿p {
+	font-family: 'Open Sans', sans-serif;
+}
+.imghome {
 	background: url("../img/portfolio6.jpg");
 	background-color: #ccc; 
 	background-size: cover;
 	box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
 	height: 100%;
 }
-.nav {
-	position: absolute; 
-	top: 0; 
+.button {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	background-color: transparent;
+	margin: 0!important; 
 }
+.spadd {
+	padding: 0;
+}
+
+
+@media only screen and (max-width: 40em){
+#logo {
+	width: 200px; 
+	padding-top: -40px;
+}
+}
+

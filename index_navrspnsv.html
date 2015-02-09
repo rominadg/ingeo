@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ingeo Global | Seguimiento satelital</title>    
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/foundation.css" />
+	<script src="js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="./archivos/responsive-navjs-master/responsive-nav.css">
+    <link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="css/app.css" />
+    <script src="./archivos/responsive-navjs-master/responsive-nav.js"></script>
+  </head>
+  <body>
+	<h1 class="hide">Ingeo Global by Ingenea</h1>
+	<div class="imghome">
+		<div class="row">
+			<div class="large-3 columns left" id="logo">
+				<img src="./img/logo_ingeo.png">
+			</div>	
+			<div class="large-9 columns spadd right">
+				<nav class="nav-collapse">
+				  <ul>
+					<li><a href="#" class="button">Home</a></li>
+					<li><a href="#" class="button">About</a></li>
+					<li><a href="#" class="button">Projects</a></li>
+					<li><a href="#" class="button">Blog</a></li>
+				  </ul>
+				</nav>
+			</div>						
+		</div>
+		<div class="row">
+			<div class="large-12 columns">
+				<p class="txtimghome">Ingeo Global. 
+				<br>
+				Seguimiento de veh&iacute;culos y gesti&oacute;n de flotas. 
+				<br>
+				Acceso online las 24 hs.</p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+        <hr>
+        <div class="large-8 columns">
+          <h4>About</h4>
+          <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+          <i class="fi-social-twitter"></i>
+        </div>
+        <div class="large-4 columns">
+          <img src="http://placehold.it/400x300&text=[img]">
+        </div>
+      </div>
+	<script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script>
+      var navigation = responsiveNav(".nav-collapse", {
+        animate: true,                    // Boolean: Use CSS3 transitions, true or false
+        transition: 284,                  // Integer: Speed of the transition, in milliseconds
+        label: "Menu",                    // String: Label for the navigation toggle
+        insert: "after",                  // String: Insert the toggle before or after the navigation
+        customToggle: "",                 // Selector: Specify the ID of a custom toggle
+        closeOnNavClick: false,           // Boolean: Close the navigation when one of the links are clicked
+        openPos: "relative",              // String: Position of the opened nav, relative or static
+        navClass: "nav-collapse",         // String: Default CSS class. If changed, you need to edit the CSS too!
+        navActiveClass: "js-nav-active",  // String: Class that is added to <html> element when nav is active
+        jsClass: "js",                    // String: 'JS enabled' class which is added to <html> element
+        init: function(){},               // Function: Init callback
+        open: function(){},               // Function: Open callback
+        close: function(){}               // Function: Close callback
+      });
+    </script>
+
+  </body>
+</html>
