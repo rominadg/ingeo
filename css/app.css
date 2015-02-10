@@ -12,6 +12,12 @@ ul {
 	height: 100%;
 }
 
+/*estilos de nav*/
+[data-magellan-expedition] {
+	background-color: transparent; 
+	padding: 0 20px; 
+}
+
 @media only screen and (max-width: 40em){
 #logo {
 	width: 200px; 
@@ -41,9 +47,9 @@ ul {
 .colorfdosecc {
 	background-color: #DEDCDC; 
 }
-/*.margsecc {
+.margsecc {
 	margin-top: 150px;
-}*/
+}
 .lineattsecc {
 	height: 1px; 
 	background-color: #999; 
@@ -98,5 +104,8 @@ table {
 	font-size: 14px;
 	color: #fff;
 	font-weight: lighter;
+}
+.notapasada {
+	padding-bottom: 40px;
 }
 
