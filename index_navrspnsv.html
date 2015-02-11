@@ -14,13 +14,36 @@
   </head>
   <body>
 	<h1 class="hide">Ingeo Global by Ingenea</h1>
-	<div class="imghome">
+	<header class="imghome">
 		<nav data-magellan-expedition="fixed" class="large-12 columns">
-			<dl class="sub-nav">
-				<dd data-magellan-arrival="build"><a href="#build">Build with HTML</a></dd>
-				<dd data-magellan-arrival="js"><a href="#js">Arrival 2</a></dd>
-			</dl>
+			<div class="large-3 columns">
+				<a class="logotop" href="#"><img src="./img/logo_ingeo.png" alt="ingeo"></a>
+			</div>
+			<div class="large-9 columns sinpad">
+				<ul class="button-group right nav-collapse">
+					<li data-magellan-arrival="perfil"><a href="#section-1" class="button">HOME</a></li>
+					<li data-magellan-arrival="servicio"><a href="#section-2" class="button">SERVICIO</a></li>
+					<li data-magellan-arrival="portfolio"><a href="#section-3" class="button">PLANES</a></li>
+					<li data-magellan-arrival="contacto"><a href="#section-4" class="button">CONTACTO</a></li>
+					<!--<li>
+						<ul class="button-group">
+							<li class="buttonred">
+								<a href="#">
+									<img src="./img/facebook.png" alt="facebook">
+								</a>
+							</li>
+							<li class="buttonred">
+								<a href="#">
+									<img src="./img/facebook.png" alt="linkedin">
+								</a>
+							</li>
+						</ul>
+					</li>-->
+					<li data-magellan-arrival="#"><a href="#" class="button"><img src="./img/accesosist.png" alt="sistema"></a></li>
+				</ul>
+			</div>
 		</nav>
+	</header>
 		<!--<nav data-magellan-expedition="fixed" class="large-12 columns">
 			<div class="large-3 columns">
 				<h1><a class="logotop" href="#"><img src="./img/logo_ingeo.png" alt="Ingeo Global"></a></h1>
@@ -48,8 +71,10 @@
 					<dd data-magellan-arrival="#"><a href="#5" class="button"><img src="./img/accesosist.png" alt="sistema"></a></dd>
 				</dl>
 			</div>
-		</nav>-->
-		<!--<div class="row">
+		</nav>
+
+	<div class="imghome">
+		<div class="row">
 			<div class="large-3 columns left" id="logo">
 				<img src="./img/logo_ingeo.png">
 			</div>	
@@ -63,7 +88,7 @@
 				  </ul>
 				</nav>
 			</div>						
-		</div> -->
+		</div>
 		<div class="row">
 			<div class="large-12 columns">
 				<p class="txtimghome">Ingeo Global. 
@@ -72,9 +97,12 @@
 				<br>
 				Acceso online las 24 hs.</p>
 			</div>
-		</div> 
-	</div>
+		</div>  
+	</div> -->
+	
 <!-- sección servicio txt -->
+<a name="servicio"></a>
+<div id="section-2" class="row">
 	<div id="ttseccion" class="row text-center margsecc">
 		<h2>SERVICIO</h2>
 		<h4>QU&Eacute; PODEMOS HACER</h4>	
@@ -89,10 +117,11 @@
 			<p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
         </div>
     </div>
+</div>
 	
 <!-- sección servicio caracteristicas -->
 <a name="build"></a>
-<h3 data-magellan-destination="build">Arrival</h3>
+<h3 data-magellan-destination="build"></h3>
 <div class="colorfdosecc margsecc">
 	<div class="row paddng">
 		<div class="large-5 columns">
@@ -414,7 +443,7 @@
     <script>
       $(document).foundation();
     </script>
-    <!--<script>
+    <script>
       var navigation = responsiveNav(".nav-collapse", {
         animate: true,                    // Boolean: Use CSS3 transitions, true or false
         transition: 284,                  // Integer: Speed of the transition, in milliseconds
@@ -430,7 +459,18 @@
         open: function(){},               // Function: Open callback
         close: function(){}               // Function: Close callback
       });
-    </script>-->
-
+    </script>
+	<script>
+		$(document).foundation({
+			"magellan-expedition": {
+			  active_class: 'active', // specify the class used for active sections
+			  threshold: 0, // how many pixels until the magellan bar sticks, 0 = auto
+			  destination_threshold: 20, // pixels from the top of destination for it to be considered active
+			  throttle_delay: 50, // calculation throttling to increase framerate
+			  fixed_top: 0, // top distance in pixels assigend to the fixed element on scroll
+			  offset_by_height: true // whether to offset the destination by the expedition height. Usually you want this to be true, unless your expedition is on the side.
+			}
+			});
+	</script>
   </body>
 </html>
