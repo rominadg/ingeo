@@ -1,4 +1,4 @@
-﻿p {
+﻿p, ul, li, a {
 	font-family: 'Open Sans', sans-serif;
 }
 ul {
@@ -12,7 +12,38 @@ ul {
 	height: 100%;
 }
 
-/*estilos de nav*/
+/*PRUEBA NAV*/
+@media only screen, 
+@media only screen and (min-width: 40.063em) and (max-width: 64em){ 
+li.name img {
+	width: 100px;
+}
+.top-bar-section ul li > a.button {
+	background: #666;
+}}
+
+@media only screen and (min-width: 40.063em){
+li.name img {
+	width: 170px;
+}
+.top-bar {
+	height: 84px;
+	background: transparent; 
+}
+.top-bar-section ul li > a.button {
+	background: transparent;
+}}
+
+.fixed {
+	background: rgba(133, 132, 132, 0.3); 
+}
+.top-bar-section ul li {
+	background: transparent; 
+}
+.top-bar-section > ul > .divider {
+	border: none;
+}
+/*estilos de nav
 [data-magellan-expedition], [data-magellan-expedition-clone] {
 	background-color: transparent; 
 	padding: 0 20px; 
@@ -24,7 +55,7 @@ ul {
     _width: 19%; /* IE6 Hack */
   }
 }
-
+/*
 @media only screen and (max-width: 40em){
 #logo {
 	width: 200px; 
@@ -45,7 +76,7 @@ ul {
 	padding: 0;
 }
 
-/* nav con topbar foundation
+--nav con topbar foundation--
 .contain-to-grid,
 .top-bar {
 	background-color: transparent; 
@@ -58,8 +89,7 @@ ul {
 }
 .right > li > a{
 	padding: 0 10px; 
-}
-*/
+} */
 
 /*ttseccion*/
 #ttseccion {
