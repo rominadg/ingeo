@@ -11,7 +11,7 @@ ul {
 	box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
 	height: 100%;
 }
-
+/******************************************************************/
 /*PRUEBA NAV*/
 @media only screen, 
 @media only screen and (min-width: 40.063em) and (max-width: 64em){ 
@@ -20,6 +20,11 @@ li.name img {
 }
 .top-bar-section ul li > a.button {
 	background: #666;
+}
+.top-bar-section ul li > a.redes_sist {
+	background: #666;
+	position: relative;
+	top: -1px;
 }}
 
 @media only screen and (min-width: 40.063em){
@@ -32,10 +37,29 @@ li.name img {
 }
 .top-bar-section ul li > a.button {
 	background: transparent;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background: transparent;
+}
+.top-bar-section ul li a.button:hover, 
+.top-bar-section ul li a.button:focus {
+	background: transparent;
+	color: red; 
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover, 
+.top-bar-section li:not(.has-form) a:not(.button):focus{
+	background: transparent;
+}
+.top-bar-section ul li:hover:not(.has-form) > a {
+	background-color: transparent;
+	background: transparent;
+}
+.top-bar-section {
+	padding-top: 10px;
 }}
 
 .fixed {
-	background: rgba(133, 132, 132, 0.3); 
+	background: rgba(49, 49, 49, 0.94); 
 }
 .top-bar-section ul li {
 	background: transparent; 
@@ -43,53 +67,23 @@ li.name img {
 .top-bar-section > ul > .divider {
 	border: none;
 }
-/*estilos de nav
-[data-magellan-expedition], [data-magellan-expedition-clone] {
-	background-color: transparent; 
-	padding: 0 20px; 
+.top-bar .redes_sist {
+	margin-bottom: 0;
 }
-@media screen and (min-width: 40em) {
-  .nav-collapse li {
-    width: 20%;
-    *width: 24.9%; /* IE7 Hack */
-    _width: 19%; /* IE6 Hack */
-  }
+.top-bar-section ul li > a {
+	display: block;
+	padding: 8px 0;
+	text-align: center;
 }
-/*
-@media only screen and (max-width: 40em){
-#logo {
-	width: 200px; 
-	padding-top: -40px;
+.top-bar .redes_sist {
+	transition: background-color 300ms ease-out;
 }
-}
-.nav-collapse a , .button-group > li .button{
-	border: none;
+.online {
+border-left: 1px solid #fff;
 }
 
-.button {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	background-color: transparent!important;
-	margin: 0!important; 
-}
-.spadd {
-	padding: 0;
-}
 
---nav con topbar foundation--
-.contain-to-grid,
-.top-bar {
-	background-color: transparent; 
-}
-.navprinc {
-	margin-left: 0; 
-}
-.right > li{
-	float: left; 
-}
-.right > li > a{
-	padding: 0 10px; 
-} */
+/******************************************************************/
 
 /*ttseccion*/
 #ttseccion {
