@@ -1,0 +1,100 @@
+﻿p, ul, li, a {
+	font-family: 'Open Sans', sans-serif;
+}
+ul {
+	list-style: none;
+}
+.imghome {
+	background: url("../img/portfolio6.jpg");
+	background-color: #ccc; 
+	background-size: cover;
+	box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+	height: 100%;
+}
+/******************************************************************/
+/*PRUEBA NAV*/
+
+/*conflictos con magellan
+[data-magellan-expedition], 
+[data-magellan-expedition-clone] {
+	min-width: 0!important;
+}*/
+
+
+/******************************************************************/
+
+/*ttseccion*/
+#ttseccion {
+	font-family: 'Open Sans', sans-serif; /*evaluar que tipografía voy a dejar en tt*/
+}
+.lineaseccion{
+	height: 2px; 
+	background-color: red; 
+	width: 230px;
+	margin: 2px auto 30px;
+}
+.colorfdosecc {
+	background-color: #DEDCDC; 
+}
+.margsecc {
+	margin-top: 150px;
+}
+.lineattsecc {
+	height: 1px; 
+	background-color: #999; 
+	margin: 5px 0 15px;
+}
+.caract {
+	margin-bottom: 25px!important;
+}
+/*demo*/
+.imgdemo {
+	height: 300px;
+}
+.paddng {
+	padding: 100px 0;
+}
+/*novedades*/
+.fdonove {
+	background-color: #666;
+}
+h2 > img {
+	padding: 0 15px 15px 16px;
+}
+
+/*planes*/
+table {
+	margin: 2rem auto 1.25rem;
+}
+/*clientes*/
+.logos {
+	padding: 80px 0; 
+}
+/*contacto*/
+.pddng {
+	padding-top: 100px;
+}
+.imgmap {
+	background: url("../img/portfolio6.jpg");
+	background-color: #ccc; 
+	background-size: cover;
+	box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+	/*height: 100%;*/
+}
+.redescontct li {
+	float: left; 
+}
+.piefdo {
+	padding: 30px 0;
+	font-size: 12px;
+	background-color: #810101;
+}
+.piefdo div p {
+	font-size: 14px;
+	color: #fff;
+	font-weight: lighter;
+}
+.notapasada {
+	padding-bottom: 40px;
+}
+
