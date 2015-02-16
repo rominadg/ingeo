@@ -1,1 +1,22 @@
-﻿
+﻿.cbp-af-header {
+	background: rgba(188, 188, 188, 0); 
+}
+.cbp-af-header nav a {
+	color: #999;
+	font-weight: normal;
+	font-size: 1.em;
+}
+
+.cbp-af-header.cbp-af-header-shrink {
+	background: rgba(188, 188, 188, 0.68);
+}
+
+/* Example Media Queries */
+@media screen and (max-width: 55em) {
+	.cbp-af-header.cbp-af-header-shrink h1 img{
+		width: 100px;
+	}
+}
+.cbp-af-header.cbp-af-header-shrink h1 {
+	width: 170px;
+}
