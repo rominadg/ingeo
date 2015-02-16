@@ -13,15 +13,73 @@ ul {
 }
 /******************************************************************/
 /*PRUEBA NAV*/
+@media only screen, 
+@media only screen and (min-width: 40.063em) and (max-width: 64em){ 
+li.name img {
+	width: 100px;
+}
+.top-bar-section ul li > a.button {
+	background: #666;
+}
+.top-bar-section ul li > a.redes_sist {
+	background: #666;
+	position: relative;
+	top: -1px;
+}}
 
-/*conflictos con magellan
-[data-magellan-expedition], 
-[data-magellan-expedition-clone] {
-	min-width: 0!important;
-}*/
+@media only screen and (min-width: 40.063em){
+li.name img {
+	width: 170px;
+}
+.top-bar {
+	height: 84px;
+	background: transparent; 
+}
+.top-bar-section ul li > a.button {
+	background: transparent;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background: transparent;
+}
+.top-bar-section ul li a.button:hover, 
+.top-bar-section ul li a.button:focus {
+	background: transparent;
+	color: red; 
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover, 
+.top-bar-section li:not(.has-form) a:not(.button):focus{
+	background: transparent;
+}
+.top-bar-section ul li:hover:not(.has-form) > a {
+	background-color: transparent;
+	background: transparent;
+}
+.top-bar-section {
+	padding-top: 10px;
+}}
 
-.cbp-af-header {
-	background: rgba(246, 246, 246, 0.64); 
+.fixed {
+	background: rgba(49, 49, 49, 0.94); 
+}
+.top-bar-section ul li {
+	background: transparent; 
+}
+.top-bar-section > ul > .divider {
+	border: none;
+}
+.top-bar .redes_sist {
+	margin-bottom: 0;
+}
+.top-bar-section ul li > a {
+	display: block;
+	padding: 8px 0;
+	text-align: center;
+}
+.top-bar .redes_sist {
+	transition: background-color 300ms ease-out;
+}
+.online {
+border-left: 1px solid #fff;
 }
 
 
