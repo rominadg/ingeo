@@ -1,19 +1,116 @@
-﻿.container {
+﻿
+.container {
 	margin-top: 0; 
 }
 
-/*#menu li {
-	background: transparent; 
+/* ajuste de estilos de nav*/
+
+.cbp-af-header nav a {
+	line-height: 40px;
+	margin: 0;
+	/*font-size: 1em;*/
 }
-.cbp-af-header h1 img,
-.cbp-af-header #menu {
-	display: inline-block;
-	position: relative;
+.cbp-af-header.cbp-af-header-shrink nav a {
+	line-height: 50px;
 }
-.cbp-af-header h1 img,
-.cbp-af-header #menu a {
-	line-height: 230px;
+#menu li a, #menu li.active a {
+	padding: 0; 
 }
-.cbp-af-header #menu {
-	float: right;
+
+#menu li {
+	background: transparent;
+	background: rgba(255,255,255, 0);
+	color: rgba(255,255,255, 0);
+}
+#menu li:hover {
+	background: rgba(255,255,255, 0);
+}
+#menu li a:hover {
+	color: rgba(255,255,255, 0.7);
+}
+	/* estilos active boton */
+#menu li.active a {
+	color: red;
+}
+#menu li.active {
+	background: rgba(0,0,0,0);
+}
+
+/*botones redes */
+.redes img {
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	padding: 5px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+}
+.redes img:hover {
+	background-color: #3a5795;
+}
+.plus img:hover {
+	background-color: #cd1111;
+}
+.online img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+	border-left: 1px solid #fff; 
+}
+.online img:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	filter: gray;
+}
+/*ajuste txt home*/
+.txtimghome {
+	padding-left: 170px; 
+}
+.primeralinea {
+	color: red;
+	font-weight: bold;
+}
+.sdalinea {
+	color: white;
+	font-weight: normal;
+}
+.tralinea {
+	color: white;
+	font-weight: lighter;
+	line-height: 30px;
+}
+	/*ajuste txt*/
+body {
+	color: #000; 
+}
+/*p {
+	font-size: 1.1em;
 }*/
+.section {
+	text-align: left;
+}
+
+/*estilos accordion*/
+.accordion .accordion-navigation > a, 
+.accordion dd > a {
+	background: #DEDCDC;
+	font-family: 'Open Sans', sans-serif;
+}
+li.accordion-navigation {
+	border-bottom: #999 1px solid;
+}
+.accordion .accordion-navigation > .content.active, 
+.accordion dd > .content.active {
+	background: transparent;
+}

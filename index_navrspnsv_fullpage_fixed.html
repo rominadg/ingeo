@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/foundation.css" />
 	<script src="js/vendor/modernizr.js"></script>
 
-    <link rel="stylesheet" href="./css/styles.css">
+    <!--<link rel="stylesheet" href="./css/styles.css">-->
 	<link rel="stylesheet" href="css/app.css" />
 	
 	
@@ -38,10 +38,7 @@
 
 	/* Centered texts in each section
 	* --------------------------------------- */
-	.section{
-		text-align:center;
-	}
-
+	
 
 	/* Bottom menu
 	* --------------------------------------- */
@@ -69,6 +66,9 @@
 					<li data-menuanchor="secondPage"><a href="#secondPage">SERVICIO</a></li>
 					<li data-menuanchor="3rdPage"><a href="#3rdPage">PLANES</a></li>
 					<li data-menuanchor="4thPage"><a href="#4thPage">CONTACTO</a></li>
+					<li><a class="redes" href="#"><img src="./img/facebook.png" alt="facebook"></a></li>
+					<li><a class="redes plus" href="#"><img src="./img/google+.png" alt="google+"></a></li>
+					<li><a class="online" href="#"><img src="./img/accesosist.png" alt="online"></a></li>
 				</ul>
 			</nav>
 		</div>	
@@ -76,24 +76,24 @@
 	
 <div id="fullpage">
 	<div class="imghome section " id="section0">
-		<div class="large-12 columns">
-			<p class="txtimghome">Ingeo Global. 
-			<br>
-			Seguimiento de veh&iacute;culos y gesti&oacute;n de flotas. 
-			<br>
-			Acceso online las 24 hs.</p>
+		<div class="txtimghome large-12 columns">
+			<p class="primeralinea">Ingeo Global.</p> 
+			<p class="sdalinea">Seguimiento de veh&iacute;culos y gesti&oacute;n de flotas. </p>
+			<p class="tralinea">Acceso online las 24 hs.</p>
 		</div>
 	</div>
 	
 	<div class="section" id="section1">
-	    <div id="ttseccion" class="row text-center margsecc">
+<!-- sección servicio txt-->
+	<div class="paddng">
+	    <div id="ttseccion" class="row text-center">
 			<h2>SERVICIO</h2>
 			<h4>QU&Eacute; PODEMOS HACER</h4>	
 			<hr class="lineaseccion">
 		</div>
 		<div class="row">
 			<div class="large-6 columns">
-				<img src="http://placehold.it/600x300&text=[img]">
+				<img src="./img/img_serv.png" alt="queesingeo">
 			</div>
 			<div class="large-6 columns">
 				<h5>INGEO GLOBAL</h5>
@@ -101,30 +101,38 @@
 			</div>
 		</div>
 	</div>
+	</div>
 	
 <!-- sección servicio caracteristicas-->	
-	<div class="colorfdosecc">
+<div class="colorfdosecc">
 	<div class="row paddng">
 		<div class="large-5 columns">
-			<img src="http://placehold.it/600x300&text=[img]">
+			<img src="./img/img_servcaract.png" alt="caract">
         </div>
         <div class="large-7 columns">
 			<div class="row">
 				<ul class="accordion" data-accordion>
 				  <li class="accordion-navigation">
-					<a href="#panel1a"><img src="http://placehold.it/50x50&text=[icono]"> Supervisi&oacute;n en tiempo real</a>
-					<div id="panel1a" class="content active">
-					  Panel 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					<a href="#panel1a"><img src="./img/iconovisual.png" alt="visualizacion"> Supervisi&oacute;n en tiempo real</a>
+					<div id="panel1a" class="content">
+						<ul>
+							<li>Localizaci&oacute;n instant&aacute;nea de los veh&iacute;culos de su flota.</li>
+							<li>Informaci&oacute;n del recorrido de cada veh&iacute;culo: posici&oacute;n, velocidad, rumbo y tiempo detenido.</li>
+							<li>Acceso web al sistema, sin necesidad de instalar ning&uacute;n software.</li>
+							<li>Visualizaci&oacute;n del recorrido de los veh&iacute;culos con la herramienta Google Maps.</li>
+							<li>Informaci&oacute;n disponible on-line, desde cualquier lugar las 24 horas.</li>
+							<li>Organizaci&oacute;n de la flota en grupos, para facilitar la b&uacute;squeda y seguimiento de los veh&iacute;culos.</li>
+						</ul>
 					</div>
 				  </li>
 				  <li class="accordion-navigation">
-					<a href="#panel2a"><img src="http://placehold.it/50x50&text=[icono]"> Gesti&oacute;n de flotas</a>
+					<a href="#panel2a"><img src="./img/iconoconfig.png" alt="configuracion"> Gesti&oacute;n de flotas</a>
 					<div id="panel2a" class="content">
 					  Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					</div>
 				  </li>
 				  <li class="accordion-navigation">
-					<a href="#panel3a"><img src="http://placehold.it/50x50&text=[icono]"> Log&iacute;stica estrat&eacute;gica</a>
+					<a href="#panel3a"><img src="./img/iconolog.png" alt="logistica"> Log&iacute;stica estrat&eacute;gica</a>
 					<div id="panel3a" class="content">
 					  Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					</div>
@@ -133,7 +141,7 @@
 			</div>
 		</div>
     </div>
-	</div>	
+</div>	
 <!-- sección servicio demo--> 
 	<div class="imghome imgdemo">
 		<div class="row">
@@ -406,7 +414,7 @@
 </div>
 
 </div>
-	-->
+
 	<script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
 	<script src="js/foundation/foundation.js"></script>
