@@ -21,17 +21,17 @@
 	background: rgba(255,255,255, 0);
 	color: rgba(255,255,255, 0);
 }
-#menu li:hover {
+#menu a:hover {
 	background: rgba(255,255,255, 0);
 }
-#menu li a:hover {
+#menu a:hover {
 	color: rgba(255,255,255, 0.7);
 }
 	/* estilos active boton */
-#menu li.active a {
+#menu .active a {
 	color: red;
 }
-#menu li.active {
+#menu .active {
 	background: rgba(0,0,0,0);
 }
 
