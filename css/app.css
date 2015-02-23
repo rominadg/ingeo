@@ -66,14 +66,21 @@ ul {
 	font-family: 'Open Sans', sans-serif; /*evaluar que tipografía voy a dejar en tt*/
 }
 .lineaseccion{
-	height: 2px; 
-	background-color: red; 
+	height: 2px;
 	width: 230px;
 	margin: 2px auto 30px;
+	border-top: 1px red solid;
+}
+#colorfdosecc {
+	background: -webkit-linear-gradient(top, rgba(208, 208, 208, 0), rgba(208, 208, 208, 0.5)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, rgba(208, 208, 208, 0), rgba(208, 208, 208, 0.5)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, rgba(208, 208, 208, 0), rgba(208, 208, 208, 0.5)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, rgba(208, 208, 208, 0), rgba(208, 208, 208, 0.5)); /* Standard syntax (must be last) */
 }
 .colorfdosecc {
-	background-color: #DEDCDC; 
+	background-color: #DEDCDC;
 }
+
 .margsecc {
 	margin-top: 150px;
 }
@@ -87,23 +94,75 @@ ul {
 }
 /*demo*/
 .imgdemo {
+	background: url("../img/fdodemo.jpg");
+	background-color: #ccc; 
+	background-size: cover;
 	height: 300px;
 }
 .paddng {
 	padding: 100px 0;
 }
+
+
 /*novedades*/
+
 .fdonove {
-	background-color: #666;
+	background-color: #999;
+}
+.ttnoved {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: rgb(253, 14, 14);
 }
 h2 > img {
 	padding: 0 15px 15px 16px;
 }
+.fdonove h5 {
+	padding: 10px 0;
+}
+h5 {
+	padding: 10px 0; 
+}
+.separador {
+	margin-bottom: 30px;
+}
+.linea {
+	border-right: #fff 1px solid;
+}
+button.btnleer {
+	padding-right: 0;
+	padding-bottom: 0;
+	background-color: transparent;
+	border-color: #007095;
+	color: #3C3B3B;
+}
+.btnleer {
+	position: relative;
+}
+.btnleer:before {
+	width: 25px;
+	height: 25px;
+	background-color: transparent;
+	content: "";
+	position: absolute;
+	left: 25%;
+	/*top: 50%;*/
+	margin-left: -22px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.btnleer:hover.btnleer:before {
+	background-color: #fff;
+	content: "+";
+	color: ; 
+}
+a.btnleer:hover {
+	color: #fff;
+} 
 
 /*planes*/
-table {
-	margin: 2rem auto 1.25rem;
-}
+
 /*clientes*/
 .logos {
 	padding: 80px 0; 
@@ -113,11 +172,15 @@ table {
 	padding-top: 100px;
 }
 .imgmap {
-	background: url("../img/portfolio6.jpg");
+	background: url("../img/fdocontacto.jpg");
 	background-color: #ccc; 
 	background-size: cover;
-	box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
-	/*height: 100%;*/
+	/*box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);*/
+	height: 100%;
+}
+.imgmap h2, 
+.imgmap h4 {
+	color: #fff;
 }
 .redescontct li {
 	float: left; 
@@ -132,7 +195,41 @@ table {
 	color: #fff;
 	font-weight: lighter;
 }
-.notapasada {
-	padding-bottom: 40px;
+.imgmap p,
+.imgmap ul, 
+.imgmap h3 {
+	color: #fff; 
+	font-weight: lighter; 
 }
-
+.imgmap ul, 
+.imgmap h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px; 
+}
+.imgmap h3 {
+	font-weight: bold; 
+	padding: 10px 0 5px;
+}
+.redescontct li {
+	padding: 5px;
+}
+element.style {
+}
+label {
+	color: #fff;
+}
+.enviar {
+	font-family: 'Open Sans', sans-serif;
+	background-color: red;
+	font-weight: lighter;
+	margin-left: 10px;
+}
+.enviar:hover {
+	background-color: rgb(204, 5, 5);
+}
+textarea {
+	min-height: 150px;
+}
+.redescontct > li {
+	padding-bottom: 10px;
+}

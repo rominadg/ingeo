@@ -114,3 +114,131 @@ li.accordion-navigation {
 .accordion dd > .content.active {
 	background: transparent;
 }
+.servitem01 {
+	list-style: square outside url("../img/itconfig.gif");
+}
+.servitem02 {
+	list-style: square outside url("../img/itgest.gif");
+}
+.servitem03 {
+	list-style: square outside url("../img/itlog.gif");
+}
+.accordion .accordion-navigation.active > a, .accordion dd.active > a {
+	background: transparent;
+	color: red;
+	border-bottom: #999 1px solid;
+}
+.accordion .accordion-navigation.active > .gestion {
+	color: rgb(255, 102, 0);
+}
+.accordion .accordion-navigation.active > .logist {
+	color: rgb(0, 51, 153);
+}
+/* demo */
+.imgdemo p {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+.imgdemo button {
+	font-family: 'Open Sans', sans-serif;
+	background-color: red;
+	font-weight: lighter;
+	margin-left: 10px;
+}
+.imgdemo button:hover {
+	background-color: rgb(204, 5, 5);
+}
+/* necesidad */
+.colorfdosecc01 {
+	background-color: rgb(91, 91, 91);
+}
+.pdngespacio {
+	padding: 0 60px; 
+}
+.colorfdosecc01 h2 {
+	padding-bottom: 50px;
+}
+.pdngespacio p, 
+.colorfdosecc01 h2,
+.pdngespacio h5 {
+	color: #fff;
+}
+.pdngespacio p {
+	font-weight: lighter;
+	padding: 10px 0;
+	border-bottom: #fff 1px dotted;
+}
+.pdngespacio h5 {
+	border-bottom: #fff 1px dotted;
+	border-top: #fff 1px dotted;
+	padding: 5px 0;
+}
+.pdngespacio img {
+	padding-right: 5px;
+} 
+/*planes*/
+
+#section2 {
+	background: transparent!important;
+}
+table {
+	margin: 10px auto;
+	font-family: 'Open Sans', sans-serif;
+}
+.ttl {
+	background-color: #900;
+	color: #fff;
+	font-weight: lighter;
+	font-size: 16px;
+	border-bottom: #fff 1px solid;
+	padding: 20px;
+}
+.planes {
+	padding: 40px 20px;
+	font-size: 20px;
+}
+.plan {
+	background-color: #999;
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+	border-left: #fff 1px solid;
+}
+.abono {
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	border-left: #fff 1px solid;
+}
+.abono > span {
+	font-size: 14px;
+	font-weight: lighter;
+}
+.instal {
+	color: #900;
+	border-left: none; 
+	background-color: transparent;
+}
+td {
+	background-color: rgb(209, 209, 209);
+	border-bottom: #fff 1px solid;
+}
+.sino {
+	padding: 0;
+	text-align: center;
+}
+
+
+/*clientes*/
+.cliente {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+}
+.cliente:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	filter: gray;
+	cursor: pointer;
+}
