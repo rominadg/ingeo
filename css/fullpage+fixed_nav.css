@@ -6,8 +6,7 @@
 /* ajuste de estilos de nav*/
 
 .cbp-af-header nav a {
-	line-height: 40px;
-	margin: 0;
+	margin: 0 0 0 10px;
 	/*font-size: 1em;*/
 }
 .cbp-af-header.cbp-af-header-shrink nav a {
@@ -75,20 +74,26 @@
 }
 /*ajuste txt home*/
 .txtimghome {
-	padding-left: 170px; 
+	margin: 50px auto 0;
+	text-align: center;
 }
 .primeralinea {
-	color: red;
+	color: rgb(193, 15, 21);
 	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 0;
 }
 .sdalinea {
 	color: white;
 	font-weight: normal;
+	font-size: 25px;
 }
 .tralinea {
 	color: white;
 	font-weight: lighter;
 	line-height: 30px;
+	font-size: 30px;
+}
 }
 	/*ajuste txt*/
 body {
@@ -230,6 +235,7 @@ td {
 }
 .ptoaclar {
 	font-size: 14px;
+	margin-bottom: 0;
 }
 .ptoaclar span {
 	color: #900;

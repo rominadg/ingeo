@@ -9,13 +9,41 @@
 .cbp-af-header.cbp-af-header-shrink {
 	background: rgba(188, 188, 188, 0.68);
 }
+.imgmap .datosingeo {
+	text-align: left;
+}
 
 /* Example Media Queries */
 @media screen and (max-width: 55em) {
 	.cbp-af-header.cbp-af-header-shrink h1 img{
 		width: 100px;
 	}
+	.separador {
+		border-right: #fff 1px dotted;
+		border-bottom: 0;
+	}
+	.linea {
+		border-right: 0;
+	}
+	  .imgmap .datosingeo {
+		text-align: center;
+	}
 }
+@media only screen and (max-width: 40em){
+#logo {
+	width: 200px; 
+	padding-top: -40px;
+}
+}
+
+@media screen and (min-width: 40em) {
+  .nav-collapse li {
+    width: 20%;
+    *width: 24.9%; /* IE7 Hack */
+    _width: 19%; /* IE6 Hack */
+  }
+}
+
 .cbp-af-header.cbp-af-header-shrink h1 {
 	width: 170px;
 }

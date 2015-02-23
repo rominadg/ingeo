@@ -1,11 +1,12 @@
 ﻿p {
 	font-family: 'Open Sans', sans-serif;
+	color: #000;
 }
 ul {
 	list-style: none;
 }
 .imghome {
-	background: url("../img/fdohome02.jpg");
+	background: url("../img/fdohome03.jpg");
 	background-color: #ccc; 
 	background-size: cover;
 	box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
@@ -13,11 +14,20 @@ ul {
 }
 
 /*estilos de nav*/
+/* NUEVOS */
+nav#menu div {
+	float: left;
+}
 [data-magellan-expedition], [data-magellan-expedition-clone] {
 	background-color: transparent; 
 	padding: 0 20px; 
 }
 
+@media screen and (max-width: 55em) {
+.cbp-af-header nav div a {
+	margin: 0 10px;
+	}
+}
 
 .nav-collapse a , .button-group > li .button{
 	border: none;
@@ -173,6 +183,9 @@ a.btnleer:hover {
 }
 .redescontct li {
 	float: left; 
+}
+.datosingeo ul {
+	margin-left: 0; 
 }
 .piefdo {
 	padding: 30px 0;
