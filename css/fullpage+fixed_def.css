@@ -5,26 +5,22 @@
 
 /* ajuste de estilos de nav*/
 .cbp-af-header .cbp-af-inner {
-	width: 100%;
+	width: auto;
 	max-width: 110em;
 }
-
 .cbp-af-header nav a {
 	margin: 0 0 0 10px;
 	/*font-size: 1em;*/
 }
+
 .cbp-af-header.cbp-af-header-shrink nav a {
 	line-height: 50px;
 }
-#menu div {
-	display: inline;
-	float: none;
-}
-#menu a, #menu .active a {
+#menu li a, #menu li.active a {
 	padding: 0; 
 }
 
-#menu {
+#menu li {
 	background: transparent;
 	background: rgba(255,255,255, 0);
 	color: rgba(255,255,255, 0);
@@ -36,7 +32,7 @@
 	color: rgba(255,255,255, 0.7);
 }
 	/* estilos active boton */
-#menu a.active {
+#menu .active a {
 	color: red;
 }
 #menu .active {
@@ -74,6 +70,7 @@
 	-ms-transition: all 250ms ease-in-out;
 	transition: all 250ms ease-in-out;
 	border-left: 1px solid #fff; 
+	padding-left: 3px;
 }
 .online img:hover {
 	-webkit-filter: grayscale(0%);
@@ -198,6 +195,7 @@ li.accordion-navigation {
 table {
 	margin: 10px auto;
 	font-family: 'Open Sans', sans-serif;
+	border: 0;
 }
 .ttl {
 	background-color: #900;

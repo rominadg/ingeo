@@ -1,4 +1,4 @@
-﻿p {
+﻿body, p, ul {
 	font-family: 'Open Sans', sans-serif;
 	color: #000;
 }
@@ -15,29 +15,81 @@ ul {
 
 /*estilos de nav*/
 /* NUEVOS */
-.cbp-af-header nav {
-	height: 90px;
-	line-height: 90px;
+nav#menu div {
+	display: inline;
+	float: none;	
 }
 [data-magellan-expedition], [data-magellan-expedition-clone] {
 	background-color: transparent; 
 	padding: 0 20px; 
 }
-
-@media screen and (max-width: 55em) {
+.cbp-af-header nav {
+	height: 90px;
+	line-height: 90px;
+}
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) { 
+.cbp-af-header {
+	height: 250px!important;
+}
+.cbp-af-header.cbp-af-header-shrink {
+	height: 180px!important;
+}
+.cbp-af-header .cbp-af-inner {
+	padding: 0!important;
+}
 .cbp-af-header nav {
 	height: 60px;
 	line-height: 60px;
 }
 .cbp-af-header nav div a {
-	margin: 0 10px;
+	margin: 0 5px;
 }
-.cbp-af-header.cbp-af-header-shrink {
-	height: 115px!important;
+.online img {
+	border-left: 0;
 }
 .cbp-af-header.cbp-af-header-shrink nav a {
-	font-size: 1.4em;
+	font-size: 0.70em!important;
+	margin: 0 2px;
+}
+.paddng {
+	padding: 120px 0;
+}
+.imgdemo img{
+	float: left; 
+}
+.separador {
+	float: none;
+	width: 100%;
+	border-right: 0;
+}
+/*tabla de planes*/
+.planes {
+	padding: 10px 8px;
+	font-size: 16px;
+}
+table thead tr th, table tfoot tr th, table tfoot tr td, table tbody tr th, table tbody tr td, table tr td {
+	line-height: 1rem; 
+}
+.ttl {
+	font-size: 11px; 
+	padding: 8px;
+}
+.abono {
+	font-size: 18px;
+}
+.sino img {
+	width: 30px;
 }}
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+.cbp-af-header.cbp-af-header-shrink {
+	height: 135px;
+}
+.abono > span {
+	font-size: 11px;
+}
+} 
 
 .nav-collapse a , .button-group > li .button{
 	border: none;
@@ -50,7 +102,7 @@ ul {
 	margin: 0!important; 
 }
 .spadd {
-	padding: 0;
+	padding: 0!important;
 }
 
 /* nav con topbar foundation
@@ -139,36 +191,13 @@ h5 {
 	border-right: #fff 1px dotted;
 }
 button.btnleer {
-	padding-right: 0;
-	padding-bottom: 0;
-	background-color: transparent;
-	border-color: #007095;
-	color: #3C3B3B;
-}
-.btnleer {
-	position: relative;
-}
-.btnleer:before {
-	width: 25px;
-	height: 25px;
-	background-color: transparent;
-	content: "";
-	position: absolute;
-	left: 25%;
-	/*top: 50%;*/
-	margin-left: -22px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-}
-.btnleer:hover.btnleer:before {
-	background-color: #fff;
-	content: "+";
-	color: ; 
-}
-a.btnleer:hover {
+	background-color: #CF0202;
 	color: #fff;
-} 
+	padding: 10px;
+}
+button.btnleer:hover {
+	background-color: #7D0101;
+}
 
 /*planes*/
 
