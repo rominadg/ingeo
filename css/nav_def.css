@@ -33,7 +33,7 @@ nav#menu div {
 	height: 250px!important;
 }
 .cbp-af-header.cbp-af-header-shrink {
-	height: 180px!important;
+	height: 140px!important;
 }
 .cbp-af-header .cbp-af-inner {
 	padding: 0!important;
@@ -46,7 +46,7 @@ nav#menu div {
 	margin: 0 5px;
 }
 h1 > img {
-	width: 200px;
+	width: 150px;
 }
 .btnhome {
 	display: none!important; 
@@ -55,7 +55,7 @@ h1 > img {
 	display: none!important; 
 }
 .online img {
-	width: 150px;
+	width: 90px;
 	border-left: 0;
 }
 .cbp-af-header.cbp-af-header-shrink nav a {
@@ -63,9 +63,10 @@ h1 > img {
 	margin: 0 2px;
 }
 .primeralinea {
-	font-size: 30px;
+	display: none;
 }
 .sdalinea {
+	padding-top: 95px;
 	font-size: 15px;
 }
 .tralinea {
@@ -104,7 +105,7 @@ table thead tr th, table tfoot tr th, table tfoot tr td, table tbody tr th, tabl
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
 .cbp-af-header.cbp-af-header-shrink {
-	height: 135px;
+	height: 120px;
 }
 h1 > img {
 	width: 250px;
@@ -260,7 +261,8 @@ button.btnleer:hover {
 	color: #fff;
 }
 .redescontct li {
-	float: left; 
+	float: none;
+	display: inline-block; 
 }
 .datosingeo ul {
 	margin-left: 0; 
