@@ -60,6 +60,12 @@
 .plus img:hover {
 	background-color: #cd1111;
 }
+/*.online {
+	display: block; 
+	background-image: url("../img/accesosist02.png"); 
+	width: 130px; 
+	height: 60px; 
+}*/
 .online img {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);

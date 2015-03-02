@@ -45,12 +45,32 @@ nav#menu div {
 .cbp-af-header nav div a {
 	margin: 0 5px;
 }
+h1 > img {
+	width: 200px;
+}
+.btnhome {
+	display: none!important; 
+}
+#menu .redes{
+	display: none!important; 
+}
 .online img {
+	width: 150px;
 	border-left: 0;
 }
 .cbp-af-header.cbp-af-header-shrink nav a {
 	font-size: 0.70em!important;
 	margin: 0 2px;
+}
+.primeralinea {
+	font-size: 30px;
+}
+.sdalinea {
+	font-size: 15px;
+}
+.tralinea {
+	line-height: 25px;
+	font-size: 25px;
 }
 .paddng {
 	padding: 120px 0;
@@ -85,6 +105,25 @@ table thead tr th, table tfoot tr th, table tfoot tr td, table tbody tr th, tabl
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
 .cbp-af-header.cbp-af-header-shrink {
 	height: 135px;
+}
+h1 > img {
+	width: 250px;
+}
+.online img {
+	width: 150px;
+}
+.primeralinea {
+	font-size: 30px;
+}
+.sdalinea {
+	font-size: 15px;
+}
+.tralinea {
+	line-height: 25px;
+	font-size: 25px;
+}
+#menu .redes{
+	display: none!important; 
 }
 .abono > span {
 	font-size: 11px;
